@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5618E0122B5FB5310033FD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0112B5FB5310033FD8D /* AppDelegate.swift */; };
+		5618E0142B5FB5310033FD8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0132B5FB5310033FD8D /* SceneDelegate.swift */; };
+		5618E0162B5FB5310033FD8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0152B5FB5310033FD8D /* ViewController.swift */; };
+		5618E0192B5FB5310033FD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0172B5FB5310033FD8D /* Main.storyboard */; };
+		5618E01B2B5FB5370033FD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5618E01A2B5FB5370033FD8D /* Assets.xcassets */; };
+		5618E01E2B5FB5370033FD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5618E01C2B5FB5370033FD8D /* LaunchScreen.storyboard */; };
+		5618E0292B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0282B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift */; };
+		5618E0332B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0322B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift */; };
+		5618E0352B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5618E0252B5FB5370033FD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618E0062B5FB5310033FD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5618E00D2B5FB5310033FD8D;
+			remoteInfo = "Will you be my girlfriend";
+		};
+		5618E02F2B5FB5370033FD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5618E0062B5FB5310033FD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5618E00D2B5FB5310033FD8D;
+			remoteInfo = "Will you be my girlfriend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5618E00E2B5FB5310033FD8D /* Will you be my girlfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Will you be my girlfriend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5618E0112B5FB5310033FD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5618E0132B5FB5310033FD8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5618E0152B5FB5310033FD8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5618E0182B5FB5310033FD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5618E01A2B5FB5370033FD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5618E01D2B5FB5370033FD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5618E01F2B5FB5370033FD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5618E0242B5FB5370033FD8D /* Will you be my girlfriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Will you be my girlfriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5618E0282B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_you_be_my_girlfriendTests.swift; sourceTree = "<group>"; };
+		5618E02E2B5FB5370033FD8D /* Will you be my girlfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Will you be my girlfriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5618E0322B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_you_be_my_girlfriendUITests.swift; sourceTree = "<group>"; };
+		5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_you_be_my_girlfriendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5618E00B2B5FB5310033FD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E0212B5FB5370033FD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E02B2B5FB5370033FD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5618E0052B5FB5310033FD8D = {
+			isa = PBXGroup;
+			children = (
+				5618E0102B5FB5310033FD8D /* Will you be my girlfriend */,
+				5618E0272B5FB5370033FD8D /* Will you be my girlfriendTests */,
+				5618E0312B5FB5370033FD8D /* Will you be my girlfriendUITests */,
+				5618E00F2B5FB5310033FD8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5618E00F2B5FB5310033FD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5618E00E2B5FB5310033FD8D /* Will you be my girlfriend.app */,
+				5618E0242B5FB5370033FD8D /* Will you be my girlfriendTests.xctest */,
+				5618E02E2B5FB5370033FD8D /* Will you be my girlfriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5618E0102B5FB5310033FD8D /* Will you be my girlfriend */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0112B5FB5310033FD8D /* AppDelegate.swift */,
+				5618E0132B5FB5310033FD8D /* SceneDelegate.swift */,
+				5618E0152B5FB5310033FD8D /* ViewController.swift */,
+				5618E0172B5FB5310033FD8D /* Main.storyboard */,
+				5618E01A2B5FB5370033FD8D /* Assets.xcassets */,
+				5618E01C2B5FB5370033FD8D /* LaunchScreen.storyboard */,
+				5618E01F2B5FB5370033FD8D /* Info.plist */,
+			);
+			path = "Will you be my girlfriend";
+			sourceTree = "<group>";
+		};
+		5618E0272B5FB5370033FD8D /* Will you be my girlfriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0282B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift */,
+			);
+			path = "Will you be my girlfriendTests";
+			sourceTree = "<group>";
+		};
+		5618E0312B5FB5370033FD8D /* Will you be my girlfriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0322B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift */,
+				5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */,
+			);
+			path = "Will you be my girlfriendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5618E00D2B5FB5310033FD8D /* Will you be my girlfriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618E0382B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriend" */;
+			buildPhases = (
+				5618E00A2B5FB5310033FD8D /* Sources */,
+				5618E00B2B5FB5310033FD8D /* Frameworks */,
+				5618E00C2B5FB5310033FD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Will you be my girlfriend";
+			productName = "Will you be my girlfriend";
+			productReference = 5618E00E2B5FB5310033FD8D /* Will you be my girlfriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5618E0232B5FB5370033FD8D /* Will you be my girlfriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618E03B2B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriendTests" */;
+			buildPhases = (
+				5618E0202B5FB5370033FD8D /* Sources */,
+				5618E0212B5FB5370033FD8D /* Frameworks */,
+				5618E0222B5FB5370033FD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5618E0262B5FB5370033FD8D /* PBXTargetDependency */,
+			);
+			name = "Will you be my girlfriendTests";
+			productName = "Will you be my girlfriendTests";
+			productReference = 5618E0242B5FB5370033FD8D /* Will you be my girlfriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5618E02D2B5FB5370033FD8D /* Will you be my girlfriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618E03E2B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriendUITests" */;
+			buildPhases = (
+				5618E02A2B5FB5370033FD8D /* Sources */,
+				5618E02B2B5FB5370033FD8D /* Frameworks */,
+				5618E02C2B5FB5370033FD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5618E0302B5FB5370033FD8D /* PBXTargetDependency */,
+			);
+			name = "Will you be my girlfriendUITests";
+			productName = "Will you be my girlfriendUITests";
+			productReference = 5618E02E2B5FB5370033FD8D /* Will you be my girlfriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5618E0062B5FB5310033FD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5618E00D2B5FB5310033FD8D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5618E0232B5FB5370033FD8D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5618E00D2B5FB5310033FD8D;
+					};
+					5618E02D2B5FB5370033FD8D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5618E00D2B5FB5310033FD8D;
+					};
+				};
+			};
+			buildConfigurationList = 5618E0092B5FB5310033FD8D /* Build configuration list for PBXProject "Will you be my girlfriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5618E0052B5FB5310033FD8D;
+			productRefGroup = 5618E00F2B5FB5310033FD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5618E00D2B5FB5310033FD8D /* Will you be my girlfriend */,
+				5618E0232B5FB5370033FD8D /* Will you be my girlfriendTests */,
+				5618E02D2B5FB5370033FD8D /* Will you be my girlfriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5618E00C2B5FB5310033FD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5618E01E2B5FB5370033FD8D /* LaunchScreen.storyboard in Resources */,
+				5618E01B2B5FB5370033FD8D /* Assets.xcassets in Resources */,
+				5618E0192B5FB5310033FD8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E0222B5FB5370033FD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E02C2B5FB5370033FD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5618E00A2B5FB5310033FD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5618E0162B5FB5310033FD8D /* ViewController.swift in Sources */,
+				5618E0122B5FB5310033FD8D /* AppDelegate.swift in Sources */,
+				5618E0142B5FB5310033FD8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E0202B5FB5370033FD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5618E0292B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5618E02A2B5FB5370033FD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5618E0332B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift in Sources */,
+				5618E0352B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5618E0262B5FB5370033FD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5618E00D2B5FB5310033FD8D /* Will you be my girlfriend */;
+			targetProxy = 5618E0252B5FB5370033FD8D /* PBXContainerItemProxy */;
+		};
+		5618E0302B5FB5370033FD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5618E00D2B5FB5310033FD8D /* Will you be my girlfriend */;
+			targetProxy = 5618E02F2B5FB5370033FD8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5618E0172B5FB5310033FD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5618E0182B5FB5310033FD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5618E01C2B5FB5370033FD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5618E01D2B5FB5370033FD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5618E0362B5FB5370033FD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5618E0372B5FB5370033FD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5618E0392B5FB5370033FD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Will you be my girlfriend/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5618E03A2B5FB5370033FD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Will you be my girlfriend/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5618E03C2B5FB5370033FD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Will you be my girlfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Will you be my girlfriend";
+			};
+			name = Debug;
+		};
+		5618E03D2B5FB5370033FD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Will you be my girlfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Will you be my girlfriend";
+			};
+			name = Release;
+		};
+		5618E03F2B5FB5370033FD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Will you be my girlfriend";
+			};
+			name = Debug;
+		};
+		5618E0402B5FB5370033FD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D3C4YVDR4G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "magzhanzhumaly.Will-you-be-my-girlfriendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Will you be my girlfriend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5618E0092B5FB5310033FD8D /* Build configuration list for PBXProject "Will you be my girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618E0362B5FB5370033FD8D /* Debug */,
+				5618E0372B5FB5370033FD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618E0382B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618E0392B5FB5370033FD8D /* Debug */,
+				5618E03A2B5FB5370033FD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618E03B2B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618E03C2B5FB5370033FD8D /* Debug */,
+				5618E03D2B5FB5370033FD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618E03E2B5FB5370033FD8D /* Build configuration list for PBXNativeTarget "Will you be my girlfriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618E03F2B5FB5370033FD8D /* Debug */,
+				5618E0402B5FB5370033FD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5618E0062B5FB5310033FD8D /* Project object */;
+}
