@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Will_you_be_my_girlfriend" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hello" translatesAutoresizingMaskIntoConstraints="NO" id="sQW-bp-BHX">
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Frm-X0-phQ"/>
+                                    <constraint firstAttribute="width" constant="300" id="o0h-40-dON"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Бага,ты будешь моей девушкой?🌹" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jT8-BT-mng">
+                                <rect key="frame" x="-8" y="148" width="409" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-qL-uZV">
+                                <rect key="frame" x="159" y="616" width="75" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="p7J-GD-9zv"/>
+                                    <constraint firstAttribute="height" constant="50" id="y0w-uN-bMj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Yes"/>
+                                <connections>
+                                    <action selector="yesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8r-hR-2TI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Жду ответа :3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di0-zu-qWa">
+                                <rect key="frame" x="20" y="757.66666666666663" width="353" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BND-Fq-kc4">
+                                <rect key="frame" x="173" y="671" width="46" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="No"/>
+                                <connections>
+                                    <action selector="noButonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhu-F7-0zg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="RedBackground"/>
+                        <constraints>
+                            <constraint firstItem="sQW-bp-BHX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="019-Vf-tYg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="di0-zu-qWa" secondAttribute="bottom" constant="40" id="26B-rR-Jod"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="di0-zu-qWa" secondAttribute="trailing" constant="20" id="4XU-Ms-Ueb"/>
+                            <constraint firstItem="FUz-qL-uZV" firstAttribute="top" secondItem="sQW-bp-BHX" secondAttribute="bottom" constant="40" id="GeD-Mo-47K"/>
+                            <constraint firstItem="FUz-qL-uZV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HXB-uX-z2L"/>
+                            <constraint firstItem="jT8-BT-mng" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YHj-mh-NAc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jT8-BT-mng" secondAttribute="trailing" id="bip-Ej-uC3"/>
+                            <constraint firstItem="di0-zu-qWa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lKT-fE-kh0"/>
+                            <constraint firstItem="sQW-bp-BHX" firstAttribute="top" secondItem="jT8-BT-mng" secondAttribute="bottom" constant="50" id="piL-Bm-JVT"/>
+                            <constraint firstItem="sQW-bp-BHX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zC6-47-yKG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="sQW-bp-BHX" id="UZ0-Mg-jlN"/>
+                        <outlet property="messageLabel" destination="di0-zu-qWa" id="aC7-Dd-fw6"/>
+                        <outlet property="noButton" destination="BND-Fq-kc4" id="OPN-Zw-2yk"/>
+                        <outlet property="upperLabel" destination="jT8-BT-mng" id="d82-7D-blc"/>
+                        <outlet property="yesButton" destination="FUz-qL-uZV" id="klA-2I-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hello" width="392" height="512"/>
+        <namedColor name="RedBackground">
+            <color red="0.73333333333333328" green="0.27843137254901962" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

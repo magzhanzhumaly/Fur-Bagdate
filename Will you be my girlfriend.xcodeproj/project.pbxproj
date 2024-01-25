@@ -16,6 +16,24 @@
 		5618E0292B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0282B5FB5370033FD8D /* Will_you_be_my_girlfriendTests.swift */; };
 		5618E0332B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0322B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift */; };
 		5618E0352B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */; };
+		5618E0422B5FB99B0033FD8D /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5618E0412B5FB99B0033FD8D /* AppEnums.swift */; };
+		5618E04C2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04A2B5FBD200033FD8D /* Inter-Bold.ttf */; };
+		5618E04D2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04A2B5FBD200033FD8D /* Inter-Bold.ttf */; };
+		5618E04E2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04A2B5FBD200033FD8D /* Inter-Bold.ttf */; };
+		5618E04F2B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04B2B5FBD200033FD8D /* Inter-ExtraBold.ttf */; };
+		5618E0502B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04B2B5FBD200033FD8D /* Inter-ExtraBold.ttf */; };
+		5618E0512B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E04B2B5FBD200033FD8D /* Inter-ExtraBold.ttf */; };
+		5618E0542B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0522B5FBD270033FD8D /* Inter-SemiBold.ttf */; };
+		5618E0552B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0522B5FBD270033FD8D /* Inter-SemiBold.ttf */; };
+		5618E0562B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0522B5FBD270033FD8D /* Inter-SemiBold.ttf */; };
+		5618E0572B5FBD270033FD8D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0532B5FBD270033FD8D /* Inter-Regular.ttf */; };
+		5618E0582B5FBD270033FD8D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0532B5FBD270033FD8D /* Inter-Regular.ttf */; };
+		5618E0592B5FBD270033FD8D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E0532B5FBD270033FD8D /* Inter-Regular.ttf */; };
+		5618E05B2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E05A2B5FC0340033FD8D /* LeckerliOne-Regular.ttf */; };
+		5618E05C2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E05A2B5FC0340033FD8D /* LeckerliOne-Regular.ttf */; };
+		5618E05D2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5618E05A2B5FC0340033FD8D /* LeckerliOne-Regular.ttf */; };
+		568F97A72B5FDC46007CFF51 /* big-time-rush-boyfriend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 568F97A62B5FDC46007CFF51 /* big-time-rush-boyfriend.mp3 */; };
+		568F97A92B5FDEA3007CFF51 /* big-time-rush-snoop-dogg-boyfriend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 568F97A82B5FDEA3007CFF51 /* big-time-rush-snoop-dogg-boyfriend.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,14 @@
 		5618E02E2B5FB5370033FD8D /* Will you be my girlfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Will you be my girlfriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5618E0322B5FB5370033FD8D /* Will_you_be_my_girlfriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_you_be_my_girlfriendUITests.swift; sourceTree = "<group>"; };
 		5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_you_be_my_girlfriendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5618E0412B5FB99B0033FD8D /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		5618E04A2B5FBD200033FD8D /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		5618E04B2B5FBD200033FD8D /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5618E0522B5FBD270033FD8D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		5618E0532B5FBD270033FD8D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		5618E05A2B5FC0340033FD8D /* LeckerliOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeckerliOne-Regular.ttf"; sourceTree = "<group>"; };
+		568F97A62B5FDC46007CFF51 /* big-time-rush-boyfriend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "big-time-rush-boyfriend.mp3"; sourceTree = "<group>"; };
+		568F97A82B5FDEA3007CFF51 /* big-time-rush-snoop-dogg-boyfriend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "big-time-rush-snoop-dogg-boyfriend.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +125,13 @@
 		5618E0102B5FB5310033FD8D /* Will you be my girlfriend */ = {
 			isa = PBXGroup;
 			children = (
-				5618E0112B5FB5310033FD8D /* AppDelegate.swift */,
-				5618E0132B5FB5310033FD8D /* SceneDelegate.swift */,
-				5618E0152B5FB5310033FD8D /* ViewController.swift */,
-				5618E0172B5FB5310033FD8D /* Main.storyboard */,
+				568F97A52B5FDC3D007CFF51 /* Songs */,
+				5618E0432B5FBC550033FD8D /* Fonts */,
+				5618E0472B5FBC6B0033FD8D /* AppFiles */,
+				5618E0442B5FBC5A0033FD8D /* Models */,
+				5618E0452B5FBC5E0033FD8D /* Views */,
+				5618E0462B5FBC640033FD8D /* Controllers */,
 				5618E01A2B5FB5370033FD8D /* Assets.xcassets */,
-				5618E01C2B5FB5370033FD8D /* LaunchScreen.storyboard */,
 				5618E01F2B5FB5370033FD8D /* Info.plist */,
 			);
 			path = "Will you be my girlfriend";
@@ -125,6 +152,77 @@
 				5618E0342B5FB5370033FD8D /* Will_you_be_my_girlfriendUITestsLaunchTests.swift */,
 			);
 			path = "Will you be my girlfriendUITests";
+			sourceTree = "<group>";
+		};
+		5618E0432B5FBC550033FD8D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0532B5FBD270033FD8D /* Inter-Regular.ttf */,
+				5618E05A2B5FC0340033FD8D /* LeckerliOne-Regular.ttf */,
+				5618E0522B5FBD270033FD8D /* Inter-SemiBold.ttf */,
+				5618E04A2B5FBD200033FD8D /* Inter-Bold.ttf */,
+				5618E04B2B5FBD200033FD8D /* Inter-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5618E0442B5FBC5A0033FD8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5618E0452B5FBC5E0033FD8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0492B5FBCE70033FD8D /* XIBs */,
+				5618E0482B5FBCC60033FD8D /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5618E0462B5FBC640033FD8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0152B5FB5310033FD8D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5618E0472B5FBC6B0033FD8D /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0132B5FB5310033FD8D /* SceneDelegate.swift */,
+				5618E0112B5FB5310033FD8D /* AppDelegate.swift */,
+				5618E0412B5FB99B0033FD8D /* AppEnums.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		5618E0482B5FBCC60033FD8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5618E0172B5FB5310033FD8D /* Main.storyboard */,
+				5618E01C2B5FB5370033FD8D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5618E0492B5FBCE70033FD8D /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		568F97A52B5FDC3D007CFF51 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				568F97A82B5FDEA3007CFF51 /* big-time-rush-snoop-dogg-boyfriend.mp3 */,
+				568F97A62B5FDC46007CFF51 /* big-time-rush-boyfriend.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +329,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5618E0542B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */,
+				5618E04F2B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */,
+				568F97A72B5FDC46007CFF51 /* big-time-rush-boyfriend.mp3 in Resources */,
 				5618E01E2B5FB5370033FD8D /* LaunchScreen.storyboard in Resources */,
+				568F97A92B5FDEA3007CFF51 /* big-time-rush-snoop-dogg-boyfriend.mp3 in Resources */,
 				5618E01B2B5FB5370033FD8D /* Assets.xcassets in Resources */,
+				5618E04C2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */,
 				5618E0192B5FB5310033FD8D /* Main.storyboard in Resources */,
+				5618E0572B5FBD270033FD8D /* Inter-Regular.ttf in Resources */,
+				5618E05B2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +346,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5618E0552B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */,
+				5618E05C2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */,
+				5618E04D2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */,
+				5618E0582B5FBD270033FD8D /* Inter-Regular.ttf in Resources */,
+				5618E0502B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +358,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5618E0562B5FBD270033FD8D /* Inter-SemiBold.ttf in Resources */,
+				5618E05D2B5FC0340033FD8D /* LeckerliOne-Regular.ttf in Resources */,
+				5618E04E2B5FBD200033FD8D /* Inter-Bold.ttf in Resources */,
+				5618E0592B5FBD270033FD8D /* Inter-Regular.ttf in Resources */,
+				5618E0512B5FBD200033FD8D /* Inter-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +375,7 @@
 			files = (
 				5618E0162B5FB5310033FD8D /* ViewController.swift in Sources */,
 				5618E0122B5FB5310033FD8D /* AppDelegate.swift in Sources */,
+				5618E0422B5FB99B0033FD8D /* AppEnums.swift in Sources */,
 				5618E0142B5FB5310033FD8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +566,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +595,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
