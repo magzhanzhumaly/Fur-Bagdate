@@ -21,17 +21,17 @@ enum NoMessages {
         switch self {
             
         case .podumaizanovo:
-            return "Подумай заново😠"
+            return "Think again 😠"
         case .podumaihoroshenko:
-            return "Подумай хорошенько😭"
+            return "No, don't hurry 😭"
         case .netoropis:
-            return "Не торопись🥺"
+            return "You are rushing 🥲"
         case .choosewisely:
-            return "CHOOSE WISELY😩"
+            return "Choose wisely 😣"
         case .mimo:
-            return "МИМО!💀💀"
+            return "You missed!"
         case .nublin:
-            return "Ну блииин💔💔"
+            return "Noooo 💔💔"
         }
     }
     
@@ -56,23 +56,23 @@ enum YesMessages {
         switch self {
             
         case .uti:
-            return "Утиии🥰"
+            return "Awwwwwwww 🥰"
         case .yatakiznal:
-            return "Я так и знал!🤭"
+            return "I knew it! 🤭"
         case .dokazhivnovo:
-            return "Докажи заново🫣"
+            return "Say it again 🫣"
         case .hehehe:
-            return "ХЕХЕХЕХ☺️"
+            return "Hehehehehe ☺️"
         case .ura:
-            return "Ураа🥳"
+            return "Hoorayyy 🥳"
         case .zhanymsol:
-            return "Жаным сол😇"
+            return "Aww my cute pumpkin 😇"
         case .yatebyanepodvedu:
-            return "Я тебя не подведу❤️❤️"
+            return "I won't let you down ❤️❤️"
         case .yavestvoi:
-            return "Я весь твой🫦"
+            return "I am all yours 🫦"
         case .oohlala:
-            return "Уляляя👀"
+            return "Ooh la la 👀"
         }
     }
     
@@ -164,11 +164,11 @@ enum MissedSenya {
         switch self {
 
         case .confused:
-            return (UIImage(named: "confused")!, "Ты, наверное, хотела нажать на да, но промахнулась...")
+            return (UIImage(named: "confused")!, "You must have missed the YES button...")
         case .goodforyou:
-            return (UIImage(named: "goodforyou")!, "Не переживай, ты еще попадешь!")
+            return (UIImage(named: "goodforyou")!, "Don't hurry, you won't miss the YES button next time!")
         case .thumbsup:
-            return (UIImage(named: "thumbsup")!, "Постарайся попасть еще раз :)")
+            return (UIImage(named: "thumbsup")!, "Try to press the YES button again but carefully :)")
         }
     }
     
@@ -418,11 +418,11 @@ public enum Fonts {
         case .largeTitleBold34, .title1Bold28, .title2Bold22, .title3Bold20, .headline17, .calloutBold16, .subheadlineBold15, .footnoteBold13, .caption1Bold12, .caption2Bold11:
             //            return "Inter-SemiBold"
 //            return "Inter-ExtraBold"
-            return "LeckerliOne-Regular"
+            return "Montserrat-Regular"
 
         case .largeTitleRegular34, .title1Regular28, .title2Regular22, .title3Regular20, .body17, .calloutRegular16, .subheadlineRegular15, .footnoteRegular13, .caption1Regular12, .caption2Regular11:
 //            return "Inter-Regular"
-            return "LeckerliOne-Regular"
+            return "Montserrat-Regular"
 
         }
     }

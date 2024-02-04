@@ -54,23 +54,24 @@ class ViewController: UIViewController {
 //        timer = Timer.scheduledTimer(timeInterval: 3 * 60 + 25, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true) // without snoop dogg
 
 
-        upperLabel.textColor = .danger600 // UIColor(named: "RedBackground")
+        upperLabel.textColor = .senyaFur // UIColor(named: "RedBackground")
         
-        upperLabel.text = "Бага, ты будешь\nмоей девушкой?🌹"
+        upperLabel.text = "Baga, will you be\nmy girlfriend?"
                 
-        view.backgroundColor = Colors.danger200.color
+        view.backgroundColor = .white
+        // Colors.danger200.color
         
-        messageLabel.font = Fonts.title2Regular22.font
-        messageLabel.textColor = .danger600 // UIColor(named: "RedBackground")
+        messageLabel.font = Fonts.body17.font
+        messageLabel.textColor = .senyaFur // UIColor(named: "RedBackground")
         
-        noButton.setTitle("Нет", for: .normal)
+        noButton.setTitle("No", for: .normal)
         noButton.setTitleColor(.white, for: .normal)
         noButton.titleLabel?.font = Fonts.title2Regular22.font
         noButton.backgroundColor = Colors.danger400.color
 
         noButton.layer.cornerRadius = 5
         
-        yesButton.setTitle("Да", for: .normal)
+        yesButton.setTitle("Yes", for: .normal)
         yesButton.setTitleColor(.white, for: .normal)
         yesButton.titleLabel?.font = Fonts.title2Regular22.font
         yesButton.backgroundColor = Colors.success400.color
