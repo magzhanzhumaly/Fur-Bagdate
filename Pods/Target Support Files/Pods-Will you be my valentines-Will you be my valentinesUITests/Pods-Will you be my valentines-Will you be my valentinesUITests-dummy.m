@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Will_you_be_my_valentines_Will_you_be_my_valentinesUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Will_you_be_my_valentines_Will_you_be_my_valentinesUITests
+@end

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1784CE28D3DB599C3417750EF2333D47 /* Pods-Will you be my valentines-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A4A0E9704869EFE963456C1099A80C /* Pods-Will you be my valentines-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2338C746447631931CD933587C9E42BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		382B0AE036DCEE55670E175BB1BEC7A9 /* Pods-Will you be my valentinesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E38869296478322EF8A6D8DD4502684 /* Pods-Will you be my valentinesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616B92024385075AEC67FCF8474AFA8E /* Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FD7BB61D7E2E05A1F97D24001E2191 /* Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m */; };
+		665786874247BA4475B74F07030220D5 /* Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6831001FA322BFD55428E141857862 /* Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72CA866950B18EA3C6121737D5E36ACF /* Pods-Will you be my valentines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A6E89E611667273CEBA88EDF01FAD /* Pods-Will you be my valentines-dummy.m */; };
+		D3ACA9F80F43D785AB8CA2694E2A9EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DFD268D885B6C3235D691618DA94A8AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA3496A13563484B632EFC9D0D0427E2 /* Pods-Will you be my valentinesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14685785A4E6929DAADB685D83D78E89 /* Pods-Will you be my valentinesTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72609DE9D6D390193E7440A70BC3A43A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E11441836F4439B0AB3ADA23F6DE018;
+			remoteInfo = "Pods-Will you be my valentines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A4A0E9704869EFE963456C1099A80C /* Pods-Will you be my valentines-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Will you be my valentines-umbrella.h"; sourceTree = "<group>"; };
+		0D33D58AB4FB370CE336CE0FDEBF60C3 /* Pods-Will you be my valentines */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Will you be my valentines"; path = Pods_Will_you_be_my_valentines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14685785A4E6929DAADB685D83D78E89 /* Pods-Will you be my valentinesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Will you be my valentinesTests-dummy.m"; sourceTree = "<group>"; };
+		14DFFD52960D2E824073BAAA04916B35 /* Pods-Will you be my valentines-Will you be my valentinesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Will you be my valentines-Will you be my valentinesUITests.modulemap"; sourceTree = "<group>"; };
+		1BBA9CD7F61CDAC1EC5B9F5F11DFEF63 /* Pods-Will you be my valentinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentinesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E38869296478322EF8A6D8DD4502684 /* Pods-Will you be my valentinesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Will you be my valentinesTests-umbrella.h"; sourceTree = "<group>"; };
+		4A6831001FA322BFD55428E141857862 /* Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h"; sourceTree = "<group>"; };
+		50DCC50B058D26E09B7E6B429C53558F /* Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A7A6E89E611667273CEBA88EDF01FAD /* Pods-Will you be my valentines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Will you be my valentines-dummy.m"; sourceTree = "<group>"; };
+		5B3A926CFEF74664488AD8B216C7DB2C /* Pods-Will you be my valentinesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentinesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CA1DA85048F390582CB402068E4810D /* Pods-Will you be my valentines-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Will you be my valentines-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6047FC3DA74C0D50DCEB1CFDCD5B3E5B /* Pods-Will you be my valentines-Will you be my valentinesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentines-Will you be my valentinesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74C96B218518C41007B08AE8F086D556 /* Pods-Will you be my valentines-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentines-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D86686CC7E66A11C31D101FEA9D3DB6 /* Pods-Will you be my valentines-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentines-Info.plist"; sourceTree = "<group>"; };
+		9618173C434B86D82DA7A291500A1FE7 /* Pods-Will you be my valentines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentines.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9FACB4441BE19BBB45A8103D7F6139 /* Pods-Will you be my valentines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentines.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0E9DC785CBD2A40CE4B0A5DB1F3BFA /* Pods-Will you be my valentines.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Will you be my valentines.modulemap"; sourceTree = "<group>"; };
+		ABF3281C95850337B4A1DB8ED174DFA8 /* Pods-Will you be my valentines-Will you be my valentinesUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Will you be my valentines-Will you be my valentinesUITests"; path = Pods_Will_you_be_my_valentines_Will_you_be_my_valentinesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B086A1955B091C4052A56ACE02A37163 /* Pods-Will you be my valentines-Will you be my valentinesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentines-Will you be my valentinesUITests-Info.plist"; sourceTree = "<group>"; };
+		BE17D5F99AE9CCDAC2A22330D7CF3F3B /* Pods-Will you be my valentinesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Will you be my valentinesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C44480C0E992D2D94CB14E054D693653 /* Pods-Will you be my valentinesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Will you be my valentinesTests.modulemap"; sourceTree = "<group>"; };
+		CF490B777491035122DEA4198A067C9E /* Pods-Will you be my valentinesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentinesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E470A581A2A149C628163F5D07C836B6 /* Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EACE6CEE5B9137AD83664E178F686820 /* Pods-Will you be my valentinesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Will you be my valentinesTests-Info.plist"; sourceTree = "<group>"; };
+		F0FD7BB61D7E2E05A1F97D24001E2191 /* Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m"; sourceTree = "<group>"; };
+		F3AD77EFE40BEA599082248B3DF807C2 /* Pods-Will you be my valentines-Will you be my valentinesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Will you be my valentines-Will you be my valentinesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE25767D45ACD550C2FF81F2907C5EB /* Pods-Will you be my valentinesTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Will you be my valentinesTests"; path = Pods_Will_you_be_my_valentinesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31D06FA016A951884E7D0A9FB0E1D759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ACA9F80F43D785AB8CA2694E2A9EBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EEF042B3B808ACFB8B23D51D1972F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD268D885B6C3235D691618DA94A8AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1243A13EB10BA6F55E171A5A3ADAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2338C746447631931CD933587C9E42BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1C61BABB550CB4FE01B4E8D6940E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D33D58AB4FB370CE336CE0FDEBF60C3 /* Pods-Will you be my valentines */,
+				ABF3281C95850337B4A1DB8ED174DFA8 /* Pods-Will you be my valentines-Will you be my valentinesUITests */,
+				FBE25767D45ACD550C2FF81F2907C5EB /* Pods-Will you be my valentinesTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B256A6EE46E97AF88A987CDBC422A4 /* Pods-Will you be my valentines-Will you be my valentinesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14DFFD52960D2E824073BAAA04916B35 /* Pods-Will you be my valentines-Will you be my valentinesUITests.modulemap */,
+				E470A581A2A149C628163F5D07C836B6 /* Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.markdown */,
+				50DCC50B058D26E09B7E6B429C53558F /* Pods-Will you be my valentines-Will you be my valentinesUITests-acknowledgements.plist */,
+				F0FD7BB61D7E2E05A1F97D24001E2191 /* Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m */,
+				B086A1955B091C4052A56ACE02A37163 /* Pods-Will you be my valentines-Will you be my valentinesUITests-Info.plist */,
+				4A6831001FA322BFD55428E141857862 /* Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h */,
+				F3AD77EFE40BEA599082248B3DF807C2 /* Pods-Will you be my valentines-Will you be my valentinesUITests.debug.xcconfig */,
+				6047FC3DA74C0D50DCEB1CFDCD5B3E5B /* Pods-Will you be my valentines-Will you be my valentinesUITests.release.xcconfig */,
+			);
+			name = "Pods-Will you be my valentines-Will you be my valentinesUITests";
+			path = "Target Support Files/Pods-Will you be my valentines-Will you be my valentinesUITests";
+			sourceTree = "<group>";
+		};
+		3DC8BE9A67F7C0CE4E5F317EE251BE4B /* Pods-Will you be my valentinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44480C0E992D2D94CB14E054D693653 /* Pods-Will you be my valentinesTests.modulemap */,
+				BE17D5F99AE9CCDAC2A22330D7CF3F3B /* Pods-Will you be my valentinesTests-acknowledgements.markdown */,
+				5B3A926CFEF74664488AD8B216C7DB2C /* Pods-Will you be my valentinesTests-acknowledgements.plist */,
+				14685785A4E6929DAADB685D83D78E89 /* Pods-Will you be my valentinesTests-dummy.m */,
+				EACE6CEE5B9137AD83664E178F686820 /* Pods-Will you be my valentinesTests-Info.plist */,
+				2E38869296478322EF8A6D8DD4502684 /* Pods-Will you be my valentinesTests-umbrella.h */,
+				1BBA9CD7F61CDAC1EC5B9F5F11DFEF63 /* Pods-Will you be my valentinesTests.debug.xcconfig */,
+				CF490B777491035122DEA4198A067C9E /* Pods-Will you be my valentinesTests.release.xcconfig */,
+			);
+			name = "Pods-Will you be my valentinesTests";
+			path = "Target Support Files/Pods-Will you be my valentinesTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B07AA02692EB8DC7EE628903CC1943DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52DD586D378058CE18677A3D0C5BD44 /* Pods-Will you be my valentines */,
+				17B256A6EE46E97AF88A987CDBC422A4 /* Pods-Will you be my valentines-Will you be my valentinesUITests */,
+				3DC8BE9A67F7C0CE4E5F317EE251BE4B /* Pods-Will you be my valentinesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0A1C61BABB550CB4FE01B4E8D6940E2A /* Products */,
+				B07AA02692EB8DC7EE628903CC1943DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52DD586D378058CE18677A3D0C5BD44 /* Pods-Will you be my valentines */ = {
+			isa = PBXGroup;
+			children = (
+				AB0E9DC785CBD2A40CE4B0A5DB1F3BFA /* Pods-Will you be my valentines.modulemap */,
+				5CA1DA85048F390582CB402068E4810D /* Pods-Will you be my valentines-acknowledgements.markdown */,
+				74C96B218518C41007B08AE8F086D556 /* Pods-Will you be my valentines-acknowledgements.plist */,
+				5A7A6E89E611667273CEBA88EDF01FAD /* Pods-Will you be my valentines-dummy.m */,
+				7D86686CC7E66A11C31D101FEA9D3DB6 /* Pods-Will you be my valentines-Info.plist */,
+				02A4A0E9704869EFE963456C1099A80C /* Pods-Will you be my valentines-umbrella.h */,
+				9F9FACB4441BE19BBB45A8103D7F6139 /* Pods-Will you be my valentines.debug.xcconfig */,
+				9618173C434B86D82DA7A291500A1FE7 /* Pods-Will you be my valentines.release.xcconfig */,
+			);
+			name = "Pods-Will you be my valentines";
+			path = "Target Support Files/Pods-Will you be my valentines";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		166ABC86F2CAC2B938EFA45A72297EE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665786874247BA4475B74F07030220D5 /* Pods-Will you be my valentines-Will you be my valentinesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3AD06E4AC6689621AD7434AE26DF09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382B0AE036DCEE55670E175BB1BEC7A9 /* Pods-Will you be my valentinesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF4C5B280DB2F3E95712CAC09B9AC0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784CE28D3DB599C3417750EF2333D47 /* Pods-Will you be my valentines-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00442CBFEE25589886ACDAE8F84B5A44 /* Pods-Will you be my valentinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74CA1EA4650AF303D508B42B79CDF8 /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentinesTests" */;
+			buildPhases = (
+				2C3AD06E4AC6689621AD7434AE26DF09 /* Headers */,
+				EC76D3B25CDDF883DFB1E4DDFFFE5291 /* Sources */,
+				31D06FA016A951884E7D0A9FB0E1D759 /* Frameworks */,
+				3E20C8C4C1563B08587B069843D98EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42044C47BCC0D442102209CBC40E0782 /* PBXTargetDependency */,
+			);
+			name = "Pods-Will you be my valentinesTests";
+			productName = Pods_Will_you_be_my_valentinesTests;
+			productReference = FBE25767D45ACD550C2FF81F2907C5EB /* Pods-Will you be my valentinesTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E11441836F4439B0AB3ADA23F6DE018 /* Pods-Will you be my valentines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE80CC0CF19315BEB6A94304274F993C /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentines" */;
+			buildPhases = (
+				FDF4C5B280DB2F3E95712CAC09B9AC0A /* Headers */,
+				B5DD386F69B2566820EC0294006DC4E6 /* Sources */,
+				66EEF042B3B808ACFB8B23D51D1972F9 /* Frameworks */,
+				E78D78AA46C5EF9558A5BA5A5D5EFB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Will you be my valentines";
+			productName = Pods_Will_you_be_my_valentines;
+			productReference = 0D33D58AB4FB370CE336CE0FDEBF60C3 /* Pods-Will you be my valentines */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9D47A60B90920945814EB73E263BC69 /* Pods-Will you be my valentines-Will you be my valentinesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4802C0635E8B975B7B468A887F57D2A3 /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentines-Will you be my valentinesUITests" */;
+			buildPhases = (
+				166ABC86F2CAC2B938EFA45A72297EE0 /* Headers */,
+				C298C8E5C33CD52A11555C1778A60D13 /* Sources */,
+				CD1243A13EB10BA6F55E171A5A3ADAFA /* Frameworks */,
+				20B8359531E9B836EEACA46FF116C230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Will you be my valentines-Will you be my valentinesUITests";
+			productName = Pods_Will_you_be_my_valentines_Will_you_be_my_valentinesUITests;
+			productReference = ABF3281C95850337B4A1DB8ED174DFA8 /* Pods-Will you be my valentines-Will you be my valentinesUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0A1C61BABB550CB4FE01B4E8D6940E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E11441836F4439B0AB3ADA23F6DE018 /* Pods-Will you be my valentines */,
+				B9D47A60B90920945814EB73E263BC69 /* Pods-Will you be my valentines-Will you be my valentinesUITests */,
+				00442CBFEE25589886ACDAE8F84B5A44 /* Pods-Will you be my valentinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B8359531E9B836EEACA46FF116C230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E20C8C4C1563B08587B069843D98EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78D78AA46C5EF9558A5BA5A5D5EFB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DD386F69B2566820EC0294006DC4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CA866950B18EA3C6121737D5E36ACF /* Pods-Will you be my valentines-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C298C8E5C33CD52A11555C1778A60D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B92024385075AEC67FCF8474AFA8E /* Pods-Will you be my valentines-Will you be my valentinesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC76D3B25CDDF883DFB1E4DDFFFE5291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3496A13563484B632EFC9D0D0427E2 /* Pods-Will you be my valentinesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42044C47BCC0D442102209CBC40E0782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Will you be my valentines";
+			target = 0E11441836F4439B0AB3ADA23F6DE018 /* Pods-Will you be my valentines */;
+			targetProxy = 72609DE9D6D390193E7440A70BC3A43A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		398543D1A6489E4AE3EC55D9A133EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBA9CD7F61CDAC1EC5B9F5F11DFEF63 /* Pods-Will you be my valentinesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentinesTests/Pods-Will you be my valentinesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentinesTests/Pods-Will you be my valentinesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CA254DABE72BF1B32711E0B0A90C5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6047FC3DA74C0D50DCEB1CFDCD5B3E5B /* Pods-Will you be my valentines-Will you be my valentinesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentines-Will you be my valentinesUITests/Pods-Will you be my valentines-Will you be my valentinesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentines-Will you be my valentinesUITests/Pods-Will you be my valentines-Will you be my valentinesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98B60B231FF6AB8D045D34044B7D1B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9618173C434B86D82DA7A291500A1FE7 /* Pods-Will you be my valentines.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentines/Pods-Will you be my valentines-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentines/Pods-Will you be my valentines.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC93C366496BCFC286DAD7C911DAE74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AD77EFE40BEA599082248B3DF807C2 /* Pods-Will you be my valentines-Will you be my valentinesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentines-Will you be my valentinesUITests/Pods-Will you be my valentines-Will you be my valentinesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentines-Will you be my valentinesUITests/Pods-Will you be my valentines-Will you be my valentinesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC9908C9C0F80C5F4133D02FC6E70945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9FACB4441BE19BBB45A8103D7F6139 /* Pods-Will you be my valentines.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentines/Pods-Will you be my valentines-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentines/Pods-Will you be my valentines.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF76B405AB2A0C36A7C2E606C9CA3479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF490B777491035122DEA4198A067C9E /* Pods-Will you be my valentinesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Will you be my valentinesTests/Pods-Will you be my valentinesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Will you be my valentinesTests/Pods-Will you be my valentinesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4802C0635E8B975B7B468A887F57D2A3 /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentines-Will you be my valentinesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC93C366496BCFC286DAD7C911DAE74A /* Debug */,
+				8CA254DABE72BF1B32711E0B0A90C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE80CC0CF19315BEB6A94304274F993C /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9908C9C0F80C5F4133D02FC6E70945 /* Debug */,
+				98B60B231FF6AB8D045D34044B7D1B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74CA1EA4650AF303D508B42B79CDF8 /* Build configuration list for PBXNativeTarget "Pods-Will you be my valentinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398543D1A6489E4AE3EC55D9A133EE03 /* Debug */,
+				EF76B405AB2A0C36A7C2E606C9CA3479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

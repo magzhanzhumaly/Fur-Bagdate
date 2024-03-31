@@ -1,0 +1,6 @@
+framework module Pods_Will_you_be_my_valentines {
+  umbrella header "Pods-Will you be my valentines-umbrella.h"
+
+  export *
+  module * { export * }
+}
